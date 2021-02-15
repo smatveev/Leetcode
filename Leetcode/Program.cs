@@ -9,7 +9,9 @@ namespace Leetcode
         {
             var BFS = new BFS();
             BFS.Execute();
+            Console.ReadLine();
 
+            Console.WriteLine(Fibonachi.Exec(6));
             Console.ReadLine();
         }
     }
