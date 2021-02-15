@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Leetcode
 {
@@ -6,7 +7,10 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var BFS = new BFS();
+            BFS.Execute();
+
+            Console.ReadLine();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Leetcode
@@ -39,5 +40,21 @@ namespace Leetcode
             return res;
         }
 
+        public void Execute()
+        {
+            int n, m, s;
+            int[][] edges;
+
+            IDictionary<int, int[]> graph = new Dictionary<int, int[]>();
+
+            graph.Add(1, new int[] { 2, 3 });
+            graph.Add(2, new int[] { 1 });
+            graph.Add(3, new int[] { 1 });
+
+            int[] a = new BFS().Shortest(4, 2, 1, graph);
+
+            foreach (int i in a)
+                Console.Write(" " + i);
+        }
     }
 }
