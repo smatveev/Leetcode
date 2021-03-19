@@ -7,6 +7,7 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
+
             var BFS = new BFS();
             BFS.Execute();
             Console.ReadLine();
