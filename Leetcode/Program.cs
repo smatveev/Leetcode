@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Leetcode.Problems;
+using System;
 
 namespace Leetcode
 {
@@ -7,6 +7,8 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
+            int a = StringCompression.Compress(new char[] { 'a', 'a', 'a', 'b', 'b', 'c', 'c', 'c' }); // { 'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b' });
+
 
             var BFS = new BFS();
             BFS.Execute();
