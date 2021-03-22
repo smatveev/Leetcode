@@ -7,8 +7,16 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            ListNode AddTwo = AddTwoNumbers.Solution(new ListNode(5),
-                new ListNode(5));
+            Node head = new Node(7);
+            head.next = new Node(13);
+            head.next.random = head;
+            Node sec = new Node(10);
+            sec.random = head.next;
+
+            var res = CopyRandomList.Solution(head);
+
+            //ListNode AddTwo = AddTwoNumbers.Solution(new ListNode(5),
+            //    new ListNode(5));
 
            // int a = StringCompression.Compress(new char[] { 'a', 'a', 'a', 'b', 'b', 'c', 'c', 'c' }); // { 'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b' });
 
