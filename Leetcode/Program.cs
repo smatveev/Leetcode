@@ -7,7 +7,10 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            int a = StringCompression.Compress(new char[] { 'a', 'a', 'a', 'b', 'b', 'c', 'c', 'c' }); // { 'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b' });
+            ListNode AddTwo = AddTwoNumbers.Solution(new ListNode(5),
+                new ListNode(5));
+
+           // int a = StringCompression.Compress(new char[] { 'a', 'a', 'a', 'b', 'b', 'c', 'c', 'c' }); // { 'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b' });
 
 
             var BFS = new BFS();
