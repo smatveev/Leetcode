@@ -4,9 +4,18 @@ using System;
 namespace Leetcode
 {
     class Program
-    {
+    {       
+
         static void Main(string[] args)
         {
+            MedianFinder mf = new MedianFinder();
+            mf.AddNum(1);
+            mf.AddNum(2);
+            mf.FindMedian();
+            mf.AddNum(3);
+            mf.FindMedian();
+
+
             Node head = new Node(7);
             head.next = new Node(13);
             head.next.random = head;
