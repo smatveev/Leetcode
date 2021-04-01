@@ -8,21 +8,23 @@ namespace Leetcode
 
         static void Main(string[] args)
         {
-            MedianFinder mf = new MedianFinder();
-            mf.AddNum(1);
-            mf.AddNum(2);
-            mf.FindMedian();
-            mf.AddNum(3);
-            mf.FindMedian();
+            var res = LargestUniqueNumber.Solution(new int[] { 5, 7, 3, 9, 4, 9, 8, 3, 1 });
+
+            //MedianFinder mf = new MedianFinder();
+            //mf.AddNum(1);
+            //mf.AddNum(2);
+            //mf.FindMedian();
+            //mf.AddNum(3);
+            //mf.FindMedian();
 
 
-            Node head = new Node(7);
-            head.next = new Node(13);
-            head.next.random = head;
-            Node sec = new Node(10);
-            sec.random = head.next;
+            //Node head = new Node(7);
+            //head.next = new Node(13);
+            //head.next.random = head;
+            //Node sec = new Node(10);
+            //sec.random = head.next;
 
-            var res = CopyRandomList.Solution(head);
+            //var res = CopyRandomList.Solution(head);
 
             //ListNode AddTwo = AddTwoNumbers.Solution(new ListNode(5),
             //    new ListNode(5));
