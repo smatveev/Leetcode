@@ -2,6 +2,9 @@
 
 namespace Leetcode
 {
+    /*
+     * solution for https://leetcode.com/problems/palindrome-linked-list/
+     */
     static class Palindrome
     {
         public static bool IsPalindrome(ListNode head)
