@@ -4,11 +4,23 @@ using System;
 namespace Leetcode
 {
     class Program
-    {       
+    {
 
         static void Main(string[] args)
         {
-            var res = LargestUniqueNumber.Solution(new int[] { 5, 7, 3, 9, 4, 9, 8, 3, 1 });
+            char[][] a = new char[5][];
+            a[0] = new char[] { '1', '1', '1', '1', '1' };
+            a[1] = new char[] { '1', '1', '1', '1', '1' };
+            a[2] = new char[] { '0', '0', '0', '0', '0' };
+            a[3] = new char[] { '1', '1', '1', '1', '1' };
+            a[4] = new char[] { '1', '1', '1', '1', '1' };
+
+
+            var res = MaximalSquare.Solution(a);
+
+            //var res = OnesAndZeroes.Solution(new string[] { "10", "0001", "111001", "1", "0" }, 5, 3);
+
+            //var res = LargestUniqueNumber.Solution(new int[] { 5, 7, 3, 9, 4, 9, 8, 3, 1 });
 
             //MedianFinder mf = new MedianFinder();
             //mf.AddNum(1);
