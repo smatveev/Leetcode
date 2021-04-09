@@ -8,15 +8,17 @@ namespace Leetcode
 
         static void Main(string[] args)
         {
-            char[][] a = new char[5][];
-            a[0] = new char[] { '1', '1', '1', '1', '1' };
-            a[1] = new char[] { '1', '1', '1', '1', '1' };
-            a[2] = new char[] { '0', '0', '0', '0', '0' };
-            a[3] = new char[] { '1', '1', '1', '1', '1' };
-            a[4] = new char[] { '1', '1', '1', '1', '1' };
+            var res = AlienDictionary.IsAlienSorted(new string[] { "hello", "leetcode" }, "hlabcdefgijkmnopqrstuvwxyz");
+
+            //char[][] a = new char[5][];
+            //a[0] = new char[] { '1', '1', '1', '1', '1' };
+            //a[1] = new char[] { '1', '1', '1', '1', '1' };
+            //a[2] = new char[] { '0', '0', '0', '0', '0' };
+            //a[3] = new char[] { '1', '1', '1', '1', '1' };
+            //a[4] = new char[] { '1', '1', '1', '1', '1' };
 
 
-            var res = MaximalSquare.Solution(a);
+            //var res = MaximalSquare.Solution(a);
 
             //var res = OnesAndZeroes.Solution(new string[] { "10", "0001", "111001", "1", "0" }, 5, 3);
 

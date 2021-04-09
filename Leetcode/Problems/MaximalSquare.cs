@@ -36,3 +36,4 @@ namespace Leetcode.Problems
             return res * res;
         }
     }
+}
