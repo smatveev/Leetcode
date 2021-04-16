@@ -8,7 +8,9 @@ namespace Leetcode
 
         static void Main(string[] args)
         {
-            var res = AlienDictionary.IsAlienSorted(new string[] { "hello", "leetcode" }, "hlabcdefgijkmnopqrstuvwxyz");
+            RemoveDuplicates.Solution("pbbcggttciiippooaais", 2);
+
+            //var res = AlienDictionary.IsAlienSorted(new string[] { "hello", "leetcode" }, "hlabcdefgijkmnopqrstuvwxyz");
 
             //char[][] a = new char[5][];
             //a[0] = new char[] { '1', '1', '1', '1', '1' };
